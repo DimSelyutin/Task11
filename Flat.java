@@ -23,7 +23,7 @@ public class Flat implements Serializable{
     private String street;
     private String flatType;
     private int exploit;
-    private String path = "E:/GitHub/Epam/Epam-1/by/epam/task11/main/model/database.txt";
+    private String path = "/model/database.txt";
 
     public String getPath(){
         return path;
